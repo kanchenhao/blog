@@ -1,0 +1,33 @@
+---
+#
+---
+@import "base";
+
+/* CSS embed contents*/
+
+video {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+video:focus {
+  outline: none;
+}
+
+iframe {
+  width: 100%;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+strong{
+  color: #9621ef;
+}
+
+.utterances{
+  max-width: 100%;
+}

@@ -1,0 +1,6 @@
+<footer>
+  <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    <span><b>{{ site.owner }}</b></span><span>©{{ currentyear }}</span>
+  </a>
+</footer>

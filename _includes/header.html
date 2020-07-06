@@ -1,0 +1,11 @@
+<header>
+  <div>
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>
+      <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">{{ owner_first_name[0] | downcase }}@home:~$</a>
+    </h1>
+    <div class="header-links">
+      {% include links.html %}
+    </div>
+  </div>
+</header>
