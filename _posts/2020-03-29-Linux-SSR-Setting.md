@@ -17,6 +17,8 @@ Install the following dependencies before installing the client:
 sudo apt-get install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1
 ```
 
+<!-- more -->
+
 Optional dependencies (If the software reports an error, please install optional dependencies):
 
 ```bash

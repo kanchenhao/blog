@@ -7,6 +7,8 @@ I have always wanted to build an independent blog to record problems I encounter
 
 My first passion is about computer science, especially programming, because I believe the great proverb: **Write the code, Change the world!**. I always believe that the world we are in the process of weaving will be better by programming.
 
+<!-- more -->
+
 There are not many words at this moment, to be added in the future.
 
 Just enjoy writing the code while young.

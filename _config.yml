@@ -32,3 +32,6 @@ owner : "KANCHENHAO"
 year : "2020"
 google_analytics: false
 markdown: kramdown
+
+# Summary Seeting
+excerpt_separator: "<!-- more -->"

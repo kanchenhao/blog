@@ -7,9 +7,11 @@ This blog system was built based on the Jekyll theme [Hacker-Blog](http://jekyll
 
 *  [](#Ruby)Ruby
 
-In Windows system, use RubyInstaller to install Ruby environment, download link is here：[RubyInstaller](http://rubyinstaller.org/downloads/)。
+In Windows system, use RubyInstaller to install Ruby environment, download link is here：[RubyInstaller](http://rubyinstaller.org/downloads/).
 
 After downloading rubyinstaller, double click rubyinstaller-2.7.0-1-x64.exe file, start up the Ruby installation wizard, click Next, continue the wizard, and check Add Ruby executables to your PATH until the Ruby installation program is finished.
+
+<!-- more -->
 
 After Ruby is installed, there will be an option, choose to install MSYS2, if it is not checked, open cmd yourself, enter "ridk install" to install MSYS2, there will be a choice of 123, choose 3 and then press Enter, this process will download many installation packages, be patient, be sure to install it completely. After the installation is complete, you will be asked to select 123 again, then press Enter directly. If the installation still fails, you can proceed as follows.
 
