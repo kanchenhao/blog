@@ -5,6 +5,25 @@
 
 /* CSS embed contents*/
 
+html{
+  overflow-y: scroll;
+}
+
+:root{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body{
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+  font: 16px/1.5 "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, 'Microsoft YaHei';
+}
+
 video {
   max-width: 100%;
   min-width: 100%;
@@ -24,18 +43,70 @@ iframe {
   z-index: -1;
 }
 
-strong{
+strong {
   color: #9621ef;
 }
 
-.utterances{
+.utterances {
   max-width: 100%;
 }
 
-body{
-  font: 16px/1.5 "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, 'Microsoft YaHei';
+code {
+  font-family: 16px/1.5 "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace, 'Microsoft YaHei';
 }
 
-code{
-  font-family:"JetBrains Mono";
+code {
+  font-family: "JetBrains Mono";
+}
+
+.home-page-ul{
+  padding: 0;
+
+}
+.home-page-ul li {
+  margin-bottom: 24px;
+  border: 1px solid #303030;
+  border-radius: 0.2em;
+  box-shadow: 0 1px 2px 0 #000, 0 2px 5px 0 #000;
+  background: #202020;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+@media screen and (min-width: 600px){
+  .post-page-article{
+    border: 1px solid #303030;
+    border-radius: 0.2em;
+    box-shadow: 0 1px 2px 0 #000, 0 2px 5px 0 #000;
+    background: #202020;
+    padding: 0.5em 1em;
+    list-style: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.08);
+  -webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.08);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+header h1{
+  letter-spacing: 3px
+}
+
+img{
+  cursor: pointer;
 }
