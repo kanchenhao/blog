@@ -3,6 +3,12 @@ layout: page
 title: Archive - Kan Chenhao
 ---
 
+<style>
+  li{
+    line-height: 2em;
+  }
+</style>
+
 <section>
   {% if site.posts[0] %}
 

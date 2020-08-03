@@ -3,6 +3,24 @@ layout: page
 title: About - Kan Chenhao
 ---
 
+<style>
+  @media screen and (min-width: 600px){
+    article{
+      border: 1px solid #303030;
+      border-radius: 0.2em;
+      box-shadow: 0 1px 2px 0 #000, 0 2px 5px 0 #000;
+      background: #202020;
+      padding: 0.5em 1em;
+      list-style: none;
+      opacity:0.9;
+    }
+  }
+  td{
+    padding: 5px 2px;
+    border-bottom: 1px dashed #b5e853;
+  }
+</style>
+
 ## Profile
 
 ### Main titles and distinctions
@@ -20,7 +38,7 @@ None temporarily.
 
 ### Education
 
-| Timeline       | Experience                                                                                                              |
-|:----------------|:------------------------------------------------------------------------------------------------------------------------|
-| 2019 - Now      | **Master student in Hydraulic Engineering**, Huazhong University of Science of Techology, Wuhan                         |
-| 2015 - 2019     | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Techology, Wuhan |
+| Timeline     | Experience                                                                                                              |
+|:------------:|:------------------------------------------------------------------------------------------------------------------------|
+| Now <br/>\|<br/> 2019  | **Master student in Hydraulic Engineering**, Huazhong University of Science of Techology, Wuhan                         |
+| 2019 <br/>\|<br/> 2015  | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Techology, Wuhan |
