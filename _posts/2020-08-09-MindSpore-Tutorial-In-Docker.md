@@ -1,3 +1,11 @@
+<!--
+ * @Author: Kan Chenhao
+ * @Date: 2020-08-09 19:19:48
+ * @LastEditTime: 2020-08-09 21:42:11
+ * @LastEditors: your name
+ * @FilePath: /kanchenhao.github.io/_posts/2020-08-09-MindSpore-Tutorial-In-Docker.md
+ * @https://github.com/kanchenhao
+-->
 ---
 title: MindSpore Tutorial In Docker
 published: true
@@ -49,17 +57,17 @@ $ git clone https://github.com/mindspore-ai/docs.git
 $ cd /docs/tutorials/tutorial_code
 $ python lenet.py
 ============== Starting Training ==============
-epoch: 1 step: 1, loss is 2.3024695
-epoch: 1 step: 2, loss is 2.3015854
-epoch: 1 step: 3, loss is 2.3041863
-epoch: 1 step: 4, loss is 2.3041685
+epoch: 1 step: 1, loss is 2.3035789
+epoch: 1 step: 2, loss is 2.3001177
+epoch: 1 step: 3, loss is 2.2996633
+epoch: 1 step: 4, loss is 2.3047967
 ...
-epoch: 1 step: 1872, loss is 0.24802093
-epoch: 1 step: 1873, loss is 0.10461495
-epoch: 1 step: 1874, loss is 0.28196782
-epoch: 1 step: 1875, loss is 0.18189847
+epoch: 1 step: 1872, loss is 0.12087243
+epoch: 1 step: 1873, loss is 0.074895434
+epoch: 1 step: 1874, loss is 0.09245071
+epoch: 1 step: 1875, loss is 0.07100312
 ============== Starting Testing ==============
-============== Accuracy:{'Accuracy': 0.9624399038461539} ==============
+============== Accuracy:{'Accuracy': 0.9629407051282052} ==============
 ```
 
 
