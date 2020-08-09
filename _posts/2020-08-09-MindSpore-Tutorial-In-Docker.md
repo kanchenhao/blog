@@ -1,11 +1,3 @@
-<!--
- * @Author: Kan Chenhao
- * @Date: 2020-08-09 19:19:48
- * @LastEditTime: 2020-08-09 21:42:11
- * @LastEditors: your name
- * @FilePath: /kanchenhao.github.io/_posts/2020-08-09-MindSpore-Tutorial-In-Docker.md
- * @https://github.com/kanchenhao
--->
 ---
 title: MindSpore Tutorial In Docker
 published: true
