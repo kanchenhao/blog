@@ -13,7 +13,7 @@ Client address: [electron-ssr-0.2.6.deb](https://github.com/qingshuisiyuan/elect
 
 Install the following dependencies before installing the client:
 
-```bash
+```shell
 sudo apt-get install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf-service libappindicator1
 ```
 
@@ -21,21 +21,21 @@ sudo apt-get install libcanberra-gtk-module libcanberra-gtk3-module gconf2 gconf
 
 Optional dependencies (If the software reports an error, please install optional dependencies):
 
-```bash
+```shell
 sudo apt-get install libssl-dev
 sudo apt-get install libsodium-dev
 ```
 
 Start installation
 
-```bash
+```shell
 cd Downloads
 sudo dpkg -i electron-ssr-0.2.6.deb
 ```
 
 Run the software after installation:
 
-```bash
+```shell
 electron-ssr
 ```
 
@@ -63,7 +63,7 @@ Configure auto switch：
     *   Rule List Format:   AutoProxy
     *   Rule List URL:
 
-        ```
+        ```shell
         https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
         ```
 

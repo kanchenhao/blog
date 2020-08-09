@@ -15,7 +15,7 @@ Just enjoy writing the code while young.
 
 <!-- Jupyter notebook convert to markdown format:
 
-```bash
+```shell
 jupyter nbconvert --to markdown notebook.ipynb
 ```
 

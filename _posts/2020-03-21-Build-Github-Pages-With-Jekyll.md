@@ -1,5 +1,5 @@
 ---
-title: Build My Github Pages With Jekyll
+title: Build Github Pages With Jekyll
 published: true
 ---
 
