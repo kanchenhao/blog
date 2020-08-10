@@ -8,7 +8,7 @@ This is a MindSpore tutorial in WSL2's docker.
 ### Install WSL2
 First, install WSL2. We can refer to the installation tutorial in [Windows 10 official website](https://docs.microsoft.com/en-us/windows/wsl/install-win10). I select **Ubuntu 20.04** linux distribution.
 
-### Install Docker：
+### Install Docker
 
 ```shell
 $ curl -fsSL https://get.docker.com -o get-docker.sh
