@@ -52,7 +52,7 @@ $ git clone https://github.com/mindspore-ai/docs.git
 
 Save this change so that there is no need to repeat the clone when starting the container later. Docker supports only submitting incremental modifications based on the original image to form a new image. Later, use this new image as a template to start the container, and the cloned files will exist in the container, so there is no need to clone repeatedly.
 
-First, with ```docker ps -l``` to find the container ID of the cloned mindspore package, Then submit this container as a new image, the image is named "kanchenhao/mindspore" here.
+First, with ```docker ps -l``` to find the container ID of the cloned mindspore package, Then submit this container as a new image, the image is named **kanchenhao/mindspore** here.
 
 ```shell
 $ docker ps -l
