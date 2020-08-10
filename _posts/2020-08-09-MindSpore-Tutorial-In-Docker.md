@@ -33,7 +33,7 @@ After installation, you can see the image we installed:
 ```shell
 $ docker images
 REPOSITORY                TAG                 IMAGE ID            CREATED             SIZE
-mindspore/mindspore-cpu   0.3.0-alpha         ef443be923bc        3 months ago        1.05GB
+mindspore/mindspore-cpu   0.3.0-alpha         e9b3f15488e5        2 months ago        1.03GB
 ```
 
 Then create our own container based on this image we just installed:
