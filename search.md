@@ -24,7 +24,7 @@ layout: default
         resultsContainer: document.getElementById('results-container'),
         json: '/search.json',
         searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
-        noResultsText: '<li>No results found.</li>',
+        noResultsText: '<li style="color:red">No results found.</li>',
         limit: 20,
         fuzzy: false
     })

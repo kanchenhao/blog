@@ -46,5 +46,5 @@ I'm committed to Deep Learning and Applied Research on Deep Learning. Following 
 
 | Timeline     | Experience                                                                                                              |
 |:------------:|:------------------------------------------------------------------------------------------------------------------------|
-| Now <br/>\|<br/> 2019  | **Master student in Hydraulic Engineering**, Huazhong University of Science of Techology, Wuhan                         |
-| 2019 <br/>\|<br/> 2015  | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Techology, Wuhan |
+| Now <br/>  \| <br/> 2019  | **Master student in Hydraulic Engineering**, Huazhong University of Science of Techology, Wuhan                         |
+| 2019 <br/> \| <br/> 2015  | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Techology, Wuhan |
