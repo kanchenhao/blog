@@ -2,21 +2,41 @@
 layout: default
 ---
 
-<script type="text/javascript"
-        async
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+<script
+  type="text/javascript"
+  async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+></script>
 
 <article class="post-page-article">
   <h2>{{ page.title }}</h2>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
+  <time datetime="{{ page.date | date_to_xmlschema }}" class="by-line"
+    >{{ page.date | date_to_string }}</time
+  >
   {{ content }}
 </article>
 
-<script src="https://utteranc.es/client.js"
-        repo="kanchenhao/kanchenhao.github.io"
-        issue-term="pathname"
-        theme="github-dark"
-        crossorigin="anonymous"
-        async>
-</script>
+<script
+  src="https://utteranc.es/client.js"
+  repo="kanchenhao/kanchenhao.github.io"
+  issue-term="pathname"
+  theme="github-dark"
+  crossorigin="anonymous"
+  async
+></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js"
+  defer="defer"
+  onload='
+    for(let x of document.getElementsByClassName("language-mermaid"))
+      if(x.nodeName=="CODE")
+      {
+        let m = document.createElement("div");
+        m.classList.add("mermaid");
+        m.textContent = x.textContent;
+        m.style.background = "white";
+        m.style.textAlign = "center";
+        x.parentNode.insertAdjacentElement("afterend", m);
+      }'
+></script>
