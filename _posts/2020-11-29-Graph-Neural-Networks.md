@@ -158,7 +158,7 @@ graph LR;
 
 ### 5. metapath2vec++
 
-持续更新中...
+<p style="color:red">内容持续更新中...</p>
 
 ### 心得体会
 
