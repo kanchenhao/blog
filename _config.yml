@@ -30,7 +30,7 @@ plugins:
 # Custom variables
 owner : "KANCHENHAO"
 year : "2020"
-google_analytics: false
+google_analytics: G-B936C4W0JJ
 markdown: kramdown
 
 # Summary Seeting
