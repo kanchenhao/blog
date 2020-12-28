@@ -99,12 +99,7 @@ $$
 图游走类模型最开始参考的就是 NLP 领域中的 Word2vec 模型。
 Word2vec 整体架构：
 
-```mermaid
-graph LR;
-  Sentences-->SkipGram;
-  SkipGram-->WordEmbedding
-  NegativeSampling-->WordEmbedding
-```
+![word2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228132028.png?token=AEQGYWK4ZQ6Q67C76ZRLEE275FVPK)
 
 Skip Gram： 根据中心词预测上下文
 
@@ -117,46 +112,25 @@ Negative Sampling：负采样，只对正样本和选取的负样本进行分类
 
 DeepWalk 整体架构：
 
-```mermaid
-graph LR;
-  Graph-->RandomWalk
-  RandomWalk-->NodeEmbeddings
-  SkipGram-->NodeEmbeddings
-  NegativeSampling-->NodeEmbeddings
-  NodeEmbeddings-->DownstreamTask
-```
+![DeepWalk](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131144.png?token=AEQGYWJ5XYEVTWQWJUFE66C75FUOW)
 
 游走方式：Random Walk
 
-### 3. node2vec
-node2vec 整体架构：
+### 3. Node2vec
+Node2vec 整体架构：
 
-```mermaid
-graph LR;
-  Graph-->BiasedRandomWalk
-  BiasedRandomWalk-->NodeEmbeddings
-  SkipGram-->NodeEmbeddings
-  NegativeSampling-->NodeEmbeddings
-  NodeEmbeddings-->DownstreamTask
-```
+![Node2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131506.png?token=AEQGYWPGMLDQSSKSCMSNPSK75FU3G)
 
 游走方式：bias random walk
 
-### 4. metapath2vec
-metapath2vec 整体架构：
+### 4. Metapath2vec
+Metapath2vec 整体架构：
 
-```mermaid
-graph LR;
-  Graph-->MetaPathBasedRandomWalk
-  MetaPathBasedRandomWalk-->NodeEmbeddings
-  SkipGram-->NodeEmbeddings
-  NegativeSampling-->NodeEmbeddings
-  NodeEmbeddings-->DownstreamTask
-```
+![Metapath2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131809.png?token=AEQGYWLUBW3JVQL4DGL4G7C75FVGU)
 
 游走方式：基于meta path
 
-### 5. metapath2vec++
+### 5. Metapath2vec++
 
 <p style="color:red">内容持续更新中...</p>
 
