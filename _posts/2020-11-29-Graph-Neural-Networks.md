@@ -97,9 +97,10 @@ $$
 
 ### 1. Word2vec
 图游走类模型最开始参考的就是 NLP 领域中的 Word2vec 模型。
+
 Word2vec 整体架构：
 
-![word2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228132028.png?token=AEQGYWK4ZQ6Q67C76ZRLEE275FVPK)
+![word2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228132028.png)
 
 Skip Gram： 根据中心词预测上下文
 
@@ -112,21 +113,21 @@ Negative Sampling：负采样，只对正样本和选取的负样本进行分类
 
 DeepWalk 整体架构：
 
-![DeepWalk](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131144.png?token=AEQGYWJ5XYEVTWQWJUFE66C75FUOW)
+![DeepWalk](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131144.png)
 
 游走方式：Random Walk
 
 ### 3. Node2vec
 Node2vec 整体架构：
 
-![Node2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131506.png?token=AEQGYWPGMLDQSSKSCMSNPSK75FU3G)
+![Node2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131506.png)
 
 游走方式：bias random walk
 
 ### 4. Metapath2vec
 Metapath2vec 整体架构：
 
-![Metapath2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131809.png?token=AEQGYWLUBW3JVQL4DGL4G7C75FVGU)
+![Metapath2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131809.png)
 
 游走方式：基于meta path
 
