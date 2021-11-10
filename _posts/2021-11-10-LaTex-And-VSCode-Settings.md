@@ -41,29 +41,29 @@ published: true
 
 2. 在环境变量path中加入刚才安装texlive的路径（本文为 `D:\texlive\2021\bin\win32` ）。
 
-![image-20211110115417488](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110115417.png)
+![image-20211110115417488](/images/20211110/20211110115417.png)
 
-![image-20211110115553311](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110115553.png)
+![image-20211110115553311](/images/20211110/20211110115553.png)
 
-![image-20211110120405311](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110120405.png)
+![image-20211110120405311](/images/20211110/20211110120405.png)
 
 ### 2. 安装VS Code
 
 1. 双击VSCodeSetup-x64-1.62.1.exe进行安装，修改安装路径，安装完成并运行。
 
-   ![image-20211110120823540](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110120823.png)
+   ![image-20211110120823540](/images/20211110/20211110120823.png)
 
-   ![image-20211110120852492](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110120852.png)
+   ![image-20211110120852492](/images/20211110/20211110120852.png)
 
-   ![image-20211110120920445](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110120920.png)
+   ![image-20211110120920445](/images/20211110/20211110120920.png)
 
-   ![image-20211110120949748](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110120949.png)
+   ![image-20211110120949748](/images/20211110/20211110120949.png)
 
-   ![image-20211110121009310](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110121009.png)
+   ![image-20211110121009310](/images/20211110/20211110121009.png)
 
 2. 打开VS Code，安装插件LaTeX Workshop。
 
-   ![image-20211110122338392](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110122338.png)
+   ![image-20211110122338392](/images/20211110/20211110122338.png)
 
 3. 左下角打开settings，打开settings.json，进行如下配置，配置好需要**重启VS Code**部分配置才生效。
 
@@ -193,9 +193,9 @@ published: true
    }
    ```
 
-   ![image-20211110121411542](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110121411.png)
+   ![image-20211110121411542](/images/20211110/20211110121411.png)
 
-   ![image-20211110121933217](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110121933.png)
+   ![image-20211110121933217](/images/20211110/20211110121933.png)
 
 
 
@@ -205,15 +205,15 @@ published: true
 
 2. 打开MathType，设置Preferences，如下图设置Workspace Preferences和Cut and Copy Preferences两项，这样就可以在mathtype中编写LaTeX公式和复制粘贴到tex文件中。
 
-   ![image-20211110132118485](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110132118.png)
+   ![image-20211110132118485](/images/20211110/20211110132118.png)
 
-   ![image-20211110132239087](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110132239.png)
+   ![image-20211110132239087](/images/20211110/20211110132239.png)
 
 ### 4. 安装Excel2LaTeX.xla加载项
 
 1. 打开Excel，选项，加载项，转到，浏览，选中`Excel2LaTeX.xla`，确定，确定。
 
-   ![image-20211110123346128](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20211110123346.png)
+   ![image-20211110123346128](/images/20211110/20211110123346.png)
 
 
 
