@@ -100,7 +100,7 @@ $$
 
 Word2vec 整体架构：
 
-![word2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228132028.png)
+![word2vec](/images/20201129/20201228132028.png)
 
 Skip Gram： 根据中心词预测上下文
 
@@ -113,21 +113,21 @@ Negative Sampling：负采样，只对正样本和选取的负样本进行分类
 
 DeepWalk 整体架构：
 
-![DeepWalk](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131144.png)
+![DeepWalk](/images/20201129/20201228131144.png)
 
 游走方式：Random Walk
 
 ### 3. Node2vec
 Node2vec 整体架构：
 
-![Node2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131506.png)
+![Node2vec](/images/20201129/20201228131506.png)
 
 游走方式：bias random walk
 
 ### 4. Metapath2vec
 Metapath2vec 整体架构：
 
-![Metapath2vec](https://raw.githubusercontent.com/kanchenhao/Pictures/main/data/20201228131809.png)
+![Metapath2vec](/images/20201129/20201228131809.png)
 
 游走方式：基于meta path
 
