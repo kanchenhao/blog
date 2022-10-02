@@ -8,7 +8,12 @@
     {% include header.html %}
     <div class="container">
       <section id="main_content">
-        {{ content }}
+        {% assign assets_base_url = site.url %}
+        {% if site.cdn.jsdelivr.enabled %}
+        {% assign assets_base_url = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: '@master' %}
+        {% endif %}
+        {% assign assets_images_url = 'src="' | append: assets_base_url | append: "/images" %}
+        {{ content | replace: 'src="/images', assets_images_url }}
       </section>
     </div>
   </div>

@@ -197,8 +197,6 @@ published: true
 
    ![image-20211110121933217](/images/20211110/20211110121933.png)
 
-
-
 ### 3. 安装MathType
 
 1. 双击MathType安装文件进行安装，修改安装路径，进行相应Crack。Crack Key可从[这里](https://www.mathtype.cn/news/xuliehao-chanpin-miyue-pojieban.html)找到，安装完成。
@@ -214,7 +212,6 @@ published: true
 1. 打开Excel，选项，加载项，转到，浏览，选中`Excel2LaTeX.xla`，确定，确定。
 
    ![image-20211110123346128](/images/20211110/20211110123346.png)
-
 
 
 **结束，祝愿各位大佬多发SCI。**
