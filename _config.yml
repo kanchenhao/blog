@@ -27,10 +27,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
- cdn:
-    jsdelivr:
-      enabled: true
-
 # Custom variables
 owner : "KANCHENHAO"
 year : "2020"
