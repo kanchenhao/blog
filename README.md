@@ -2,7 +2,7 @@
 
 ### Main titles and distinctions
 
-[1]. A graduate student.
+[1]. A software development engineer.
 
 [2]. **No One** in the programming world.
 
@@ -10,7 +10,7 @@
 
 ### Biography
 
-I'm committed to Deep Learning and Applied Research on Deep Learning. Following my studies in Huazhong University of Science of Techology (HUST), I still study in HUST and I am a graduate student.
+I‘m committed to Deep Learning and Applied Research on Deep Learning. Following my studies in Huazhong University of Science of Technology (HUST), and now I am working at a tech company.
 
 ### Publications
 [1]. **Zhenhao Gan**, Chaoshun Li, Jianzhong Zhou, and Geng Tang, [Temporal convolutional networks interval prediction model for wind speed forecasting](https://doi.org/10.1016/j.epsr.2020.106865), Electric Power Systems Research, Volume 191 (2021), 106865.
@@ -23,8 +23,9 @@ I'm committed to Deep Learning and Applied Research on Deep Learning. Following 
 
 | Timeline     | Experience                                                                                                              |
 |:------------:|:------------------------------------------------------------------------------------------------------------------------|
-| Now <br/>  \| <br/> 2019  | **Master student in Hydraulic Engineering**, Huazhong University of Science of Techology, Wuhan                         |
-| 2019 <br/> \| <br/> 2015  | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Techology, Wuhan |
+| Now <br/>  \| <br/> 2022  | **A software development engineer**, in a great Technologies Co.                         |
+| 2022 <br/>  \| <br/> 2019  | **Master student in Hydraulic Engineering**, Huazhong University of Science of Technology, Wuhan                         |
+| 2019 <br/> \| <br/> 2015  | **Bachelor's degree in Water Resources and Hydropower Engineering**, Huazhong University of Science of Technology, Wuhan |
 
 ## Blog System
 
